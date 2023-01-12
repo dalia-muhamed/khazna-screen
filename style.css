@@ -1,0 +1,207 @@
+@font-face {
+  font-family: alfontFont;
+  src: url(fonts/alfont_com_29LTAzer.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html {
+  font-size: 62.5%;
+  /* font-family: alfontFont; */
+}
+
+body {
+  background-color: #f7fcff;
+}
+.grid {
+  display: grid;
+}
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.container {
+  padding: 1.2rem 0;
+  text-align: center;
+}
+/* HEADERR */
+.header-container {
+  position: relative;
+}
+.header {
+  padding: 1.2rem;
+  border-bottom: 1px solid rgb(247, 245, 245);
+}
+
+.heading-secondary {
+  color: #1e3e8f;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.245rem;
+  letter-spacing: 0.01px;
+  text-align: center;
+  font-family: alfontFont;
+}
+
+.right-arrow {
+  width: 0.625rem;
+  height: 1.6rem;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.438rem;
+}
+
+/* WIN SECTION */
+
+.win-img-main {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin-bottom: 0.2rem;
+}
+.heading-primary {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.494rem;
+  letter-spacing: 0.01px;
+  color: #1e3e8f;
+  margin-bottom: 0.1rem;
+  font-family: alfontFont;
+}
+.green {
+  color: #63bca8;
+}
+.win-text {
+  font-size: 0.875rem;
+  font-weight: 420;
+  line-height: 0.871rem;
+  letter-spacing: 0.01px;
+  color: #505560;
+  margin-bottom: 0.8rem;
+  font-family: alfontFont;
+}
+.win-info {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+.win-img-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.information-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 0.996rem;
+  letter-spacing: 0.01px;
+  text-align: center;
+  color: #5c9eed;
+  font-family: alfontFont;
+}
+.time {
+  font-size: 0.875rem;
+  font-weight: 420;
+  line-height: 0.871rem;
+  letter-spacing: 0.01px;
+  color: #989aa1;
+}
+.line-one {
+  background-color: #5c9eed;
+  max-width: 10.5rem;
+  margin: 0.2rem auto;
+  height: 1px;
+}
+
+/* STEPS SECTION */
+.steps-section {
+  padding: 0.2rem 1rem;
+}
+.steps {
+  position: relative;
+}
+.step {
+  text-align: center;
+}
+
+.step-number {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 0.813rem;
+  letter-spacing: 0.02px;
+  color: #6b6f79;
+  margin-bottom: 0.4rem;
+}
+.step-img {
+  width: 3rem;
+  height: 3rem;
+  z-index: 9;
+}
+.step-info {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.01px;
+  color: #242938;
+  font-family: alfontFont;
+}
+.dashed-line {
+  width: 16rem;
+  height: 0;
+  border: 1px dashed #c7e7e0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.line-two {
+  width: 27rem;
+  opacity: 0.1;
+  border: 1px solid #242938;
+  margin: 1.4rem auto 1rem;
+}
+
+/* REFERRAL SECTION */
+
+.referral-section {
+  padding: 0.2rem 1rem;
+}
+
+.referral-heading {
+  font-weight: 420;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.01px;
+  color: #242938;
+  margin-bottom: 1.5rem;
+  font-family: alfontFont;
+}
+.referral {
+  display: flex;
+  column-gap: 1rem;
+}
+.referral-img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.referral-title {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.01px;
+  color: #1e3e8f;
+  font-family: alfontFont;
+}
+.referral-info {
+  font-weight: 500;
+  font-size: 1.688rem;
+  line-height: 150%;
+  font-family: alfontFont;
+}
+.referral-list-item {
+  font-family: alfontFont;
+}
