@@ -111,7 +111,7 @@ body {
 }
 
 .step-number {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 500;
   line-height: 0.9rem;
   letter-spacing: 0.02px;
@@ -167,21 +167,20 @@ body {
 .referral-types {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 2.375rem;
 }
 .referral {
   display: flex;
   align-items: center;
-  column-gap: 1rem;
-  row-gap: 1rem;
+  column-gap: 0.44125rem;
 }
 .referral-img {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3.5125rem;
+  height: 3.5125rem;
 }
 .referral-title {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1rem;
   letter-spacing: 0.01px;
   color: #1e3e8f;
@@ -189,15 +188,15 @@ body {
 }
 .referral-info {
   font-weight: 500;
-  font-size: 1.313rem;
+  font-size: 1.125rem;
   line-height: 150%;
   font-family: alfontFont;
   color: #6b6f79;
 }
 .referral-text {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 420;
-  line-height: 1.313rem;
+  line-height: 1.125rem;
   letter-spacing: 0.01px;
   color: #6b6f79;
   font-family: alfontFont;
@@ -208,7 +207,7 @@ body {
 }
 .referral-list-item {
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 420;
   line-height: 1rem;
   letter-spacing: 0.01px;
