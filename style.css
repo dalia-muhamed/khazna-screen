@@ -98,9 +98,7 @@ body {
 }
 
 /* STEPS SECTION */
-.steps-section {
-  padding: 0.2rem 1rem;
-}
+
 .steps {
   position: relative;
 }
@@ -134,12 +132,12 @@ body {
   height: 0;
   border: 1px dashed #c7e7e0;
   position: absolute;
-  top: 50%;
+  top: 3rem;
   transform: translateY(-50%);
   z-index: -1;
 }
 .line-two {
-  width: 27rem;
+  width: 20.5rem;
   opacity: 0.1;
   border: 1px solid #242938;
   margin: 1.4rem auto 1rem;
